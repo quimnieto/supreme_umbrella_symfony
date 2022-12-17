@@ -25,12 +25,13 @@
     },
     "autoload": {
         "psr-4": {
-            "App\\": "src/"
+            "SupremeUmbrella\\Apps\\Backoffice\\Backend\\src\\": "apps/backoffice/backend/src",
+            "SupremeUmbrella\\src\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "App\\Tests\\": "tests/"
+            "SupremeUmbrella\\Tests\\": "tests/"
         }
     },
     "replace": {

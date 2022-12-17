@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace SupremeUmbrella\src;
 
 use Symfony\Bundle\FrameworkBundle\Kernel\MicroKernelTrait;
 use Symfony\Component\HttpKernel\Kernel as BaseKernel;
