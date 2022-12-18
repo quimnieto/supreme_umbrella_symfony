@@ -1,0 +1,20 @@
+# Use this for PHPStorm config
+# includes:
+#     - ./vendor/nunomaduro/larastan/extension.neon
+
+parameters:
+    parallel:
+        maximumNumberOfProcesses: 2
+    paths:
+        - src/
+
+    # The level 9 is the highest and strict level
+    level: 9
+    reportUnmatchedIgnoredErrors: false
+    excludePaths:
+
+    tmpDir: tmp/phpstan
+    checkMissingIterableValueType: false
+    inferPrivatePropertyTypeFromConstructor: true
+
+    ignoreErrors:
