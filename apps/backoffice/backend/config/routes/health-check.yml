@@ -1,4 +1,4 @@
 health-check_get:
   path: /health-check
-  controller: SupremeUmbrella\Apps\Backoffice\Backend\src\Controller\HealthCheck\HealthCheckGetController
+  controller: SupremeUmbrella\Apps\Backoffice\Backend\Controller\HealthCheck\HealthCheckGetController
   methods:  [GET]

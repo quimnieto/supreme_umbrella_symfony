@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace SupremeUmbrella\Apps\Backoffice\Backend\src\Controller\HealthCheck;
+namespace SupremeUmbrella\Apps\Backoffice\Backend\Controller\HealthCheck;
 
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;

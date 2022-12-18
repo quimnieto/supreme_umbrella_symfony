@@ -1,6 +1,6 @@
 <?php
 
-use SupremeUmbrella\Apps\Backoffice\Backend\src\BackofficeBackendKernel;
+use SupremeUmbrella\Apps\Backoffice\Backend\BackofficeBackendKernel;
 use Symfony\Component\ErrorHandler\Debug;
 use Symfony\Component\HttpFoundation\Request;
 

@@ -14,8 +14,6 @@
         "symfony/runtime": "6.2.*",
         "symfony/yaml": "6.2.*"
     },
-    "require-dev": {
-    },
     "config": {
         "allow-plugins": {
             "symfony/flex": true,
@@ -25,8 +23,8 @@
     },
     "autoload": {
         "psr-4": {
-            "SupremeUmbrella\\Apps\\Backoffice\\Backend\\src\\": "apps/backoffice/backend/src",
-            "SupremeUmbrella\\src\\": "src/"
+            "SupremeUmbrella\\Apps\\Backoffice\\Backend\\": "apps/backoffice/backend/src",
+            "SupremeUmbrella\\": ["src"]
         }
     },
     "autoload-dev": {
