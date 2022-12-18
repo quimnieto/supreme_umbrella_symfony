@@ -25,4 +25,4 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: ✅ Run the tests
-          run: echo "Pending ..."
+        run: echo "Pending ..."
