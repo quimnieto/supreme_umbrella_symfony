@@ -4,4 +4,5 @@
 
 return [
     'health-check_get' => [[], ['_controller' => 'SupremeUmbrella\\Apps\\Backoffice\\Backend\\Controller\\HealthCheck\\HealthCheckGetController'], [], [['text', '/health-check']], [], [], []],
+    'users_get' => [[], ['_controller' => 'SupremeUmbrella\\Apps\\Backoffice\\Backend\\Controller\\Users\\UsersGetController'], [], [['text', '/users']], [], [], []],
 ];

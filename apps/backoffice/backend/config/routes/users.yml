@@ -1,0 +1,4 @@
+users_get:
+  path: /users
+  controller: SupremeUmbrella\Apps\Backoffice\Backend\Controller\Users\UsersGetController
+  methods:  [GET]
