@@ -16,6 +16,6 @@ if (!\class_exists(SupremeUmbrella_Apps_Backoffice_Backend_BackofficeBackendKern
 
 return new \ContainerTD1bYgx\SupremeUmbrella_Apps_Backoffice_Backend_BackofficeBackendKernelDevDebugContainer([
     'container.build_hash' => 'TD1bYgx',
-    'container.build_id' => '73062b7b',
-    'container.build_time' => 1671354340,
+    'container.build_id' => '70c61af7',
+    'container.build_time' => 1671357523,
 ], __DIR__.\DIRECTORY_SEPARATOR.'ContainerTD1bYgx');
