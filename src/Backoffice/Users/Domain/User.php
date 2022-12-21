@@ -25,6 +25,18 @@ final class User
         return new self($id, $firstName, $lastName);
     }
 
+    public static function fromPrimitives(
+        string $id,
+        string $firstName,
+        string $lastName,
+    ): self {
+        $id = new UserId($id);
+        $firstName = new UserFirstName($firstName);
+        $lastName = new UserLastName($lastName);
+
+        return new self($id, $firstName, $lastName);
+    }
+
     public function firstName(): UserFirstName
     {
         return $this->firstName;

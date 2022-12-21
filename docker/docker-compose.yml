@@ -9,6 +9,7 @@ services:
       - ../:/var/www/supreme_umbrella_symfony/
     ports:
       - "8001:8001"
+      - "8002:8002"
     networks:
       - symfony
     links:

@@ -30,7 +30,7 @@ class getRouting_LoaderService extends SupremeUmbrella_Apps_Backoffice_Backend_B
         $a->addLoader(new \Symfony\Component\Routing\Loader\ContainerLoader(new \Symfony\Component\DependencyInjection\Argument\ServiceLocator($container->getService, [
             'kernel' => ['services', 'kernel', 'getKernelService', true],
         ], [
-            'kernel' => 'SupremeUmbrella\\Apps\\Backoffice\\Backend\\BackofficeBackendKernel',
+            'kernel' => 'SupremeUmbrella\\Apps\\Backoffice\\Backend\\HotelsBackendKernel',
         ]), 'dev'));
         $a->addLoader($c);
         $a->addLoader(new \Symfony\Component\Routing\Loader\AnnotationDirectoryLoader($b, $c));

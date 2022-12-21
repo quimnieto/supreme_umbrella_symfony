@@ -7,10 +7,13 @@
         "php": ">=8.1",
         "ext-ctype": "*",
         "ext-iconv": "*",
+        "doctrine/dbal": "^3.5",
+        "doctrine/orm": "^2.14",
         "ramsey/uuid": "^4.6",
         "symfony/console": "6.2.*",
         "symfony/dotenv": "6.2.*",
         "symfony/framework-bundle": "6.2.*",
+        "symfony/messenger": "^6.2",
         "symfony/runtime": "6.2.*",
         "symfony/yaml": "6.2.*"
     },
@@ -23,6 +26,7 @@
     "autoload": {
         "psr-4": {
             "SupremeUmbrella\\Apps\\Backoffice\\Backend\\": "apps/backoffice/backend/src",
+            "SupremeUmbrella\\Apps\\Hotels\\Backend\\": "apps/hotels/backend/src",
             "SupremeUmbrella\\": ["src"]
         }
     },
@@ -60,6 +64,7 @@
         }
     },
     "require-dev": {
-        "phpstan/phpstan": "^1.9"
+        "phpstan/phpstan": "^1.9",
+        "phpunit/phpunit": "^9.5"
     }
 }
