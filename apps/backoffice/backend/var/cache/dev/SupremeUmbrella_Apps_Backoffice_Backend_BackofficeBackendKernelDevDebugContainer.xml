@@ -73,6 +73,20 @@
       <tag name="controller.service_arguments"/>
       <tag name="routing.route_loader"/>
     </service>
+    <service id="SupremeUmbrella\Apps\Backoffice\Backend\Controller\HealthCheck\HealthCheckGetController" class="SupremeUmbrella\Apps\Backoffice\Backend\Controller\HealthCheck\HealthCheckGetController" public="true" autowire="true" autoconfigure="true">
+      <tag name="controller.service_arguments"/>
+    </service>
+    <service id="SupremeUmbrella\Apps\Backoffice\Backend\Controller\Users\UsersGetController" class="SupremeUmbrella\Apps\Backoffice\Backend\Controller\Users\UsersGetController" public="true" autowire="true" autoconfigure="true">
+      <tag name="controller.service_arguments"/>
+      <argument type="service" id="SupremeUmbrella\Backoffice\Users\Application\Search\AllUsersSearcher"/>
+    </service>
+    <service id="SupremeUmbrella\Backoffice\Users\Application\Create\UserCreator" class="SupremeUmbrella\Backoffice\Users\Application\Create\UserCreator" autowire="true" autoconfigure="true"/>
+    <service id="SupremeUmbrella\Backoffice\Users\Application\Search\AllUsersSearcher" class="SupremeUmbrella\Backoffice\Users\Application\Search\AllUsersSearcher" autowire="true" autoconfigure="true"/>
+    <service id="SupremeUmbrella\Backoffice\Users\Domain\ValueObject\UserFirstName" class="SupremeUmbrella\Backoffice\Users\Domain\ValueObject\UserFirstName" autowire="true" autoconfigure="true"/>
+    <service id="SupremeUmbrella\Backoffice\Users\Domain\ValueObject\UserId" class="SupremeUmbrella\Backoffice\Users\Domain\ValueObject\UserId" autowire="true" autoconfigure="true"/>
+    <service id="SupremeUmbrella\Backoffice\Users\Domain\ValueObject\UserLastName" class="SupremeUmbrella\Backoffice\Users\Domain\ValueObject\UserLastName" autowire="true" autoconfigure="true"/>
+    <service id="SupremeUmbrella\Shared\Domain\Utils" class="SupremeUmbrella\Shared\Domain\Utils" autowire="true" autoconfigure="true"/>
+    <service id="SupremeUmbrella\Shared\Domain\ValueObject\Uuid" class="SupremeUmbrella\Shared\Domain\ValueObject\Uuid" autowire="true" autoconfigure="true"/>
     <service id="controller_resolver" class="Symfony\Bundle\FrameworkBundle\Controller\ControllerResolver">
       <tag name="monolog.logger" channel="request"/>
       <argument type="service" id="service_container"/>

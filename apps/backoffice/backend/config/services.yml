@@ -2,3 +2,10 @@ services:
   _defaults:
     autoconfigure: true
     autowire: true
+
+  SupremeUmbrella\Apps\Backoffice\Backend\Controller\:
+    resource: '../src/Controller'
+    tags: ['controller.service_arguments']
+
+  SupremeUmbrella\:
+    resource: '../../../../src'
